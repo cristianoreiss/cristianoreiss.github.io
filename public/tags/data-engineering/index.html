@@ -66,13 +66,18 @@
         </div>
         <ul id="menu" class="menu">
             <li>
-                <a href="http://localhost:1313/projetos" title="Projetos">
+                <a href="http://localhost:1313/projects" title="Projetos">
                     <span>Projetos</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/certificacoes" title="Certificações">
+                <a href="http://localhost:1313/certifications" title="Certificações">
                     <span>Certificações</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about" title="Sobre">
+                    <span>Sobre</span>
                 </a>
             </li>
         </ul>
@@ -87,20 +92,19 @@
 
 <article class="post-entry tag-entry"> 
 <figure class="entry-cover">
-        <img loading="lazy" src="https://img.shields.io/badge/Stack-Airflow%20%7c%20dbt%20%7c%20Docker-blue?style=for-the-badge" alt="Data Engineering Stack">
+        <img loading="lazy" src="https://img.shields.io/badge/Stack-Python%20%7c%20Airflow%20%7c%20dbt%20%7c%20Docker-blue?style=for-the-badge" alt="Data Engineering Stack">
 </figure>
   <header class="entry-header">
     <h2 class="entry-hint-parent">Olist Data Engineering Project
     </h2>
   </header>
   <div class="entry-content">
-    <p>🛒 Visão Geral Este projeto implementa um pipeline de dados ponta a ponta utilizando o dataset público da Olist. O objetivo é simular um ambiente real de engenharia de dados, transformando dados brutos em insights estratégicos.
-🏗️ Arquitetura do Projeto A solução foi desenhada para ser escalável e reprodutível, utilizando as seguintes etapas:
-Extração e Carga (EL): O Apache Airflow orquestra a captura dos arquivos CSV e realiza a ingestão no banco de dados PostgreSQL. Transformação (T): Utilização do dbt para criar camadas de dados (staging e marts). Conteinerização: Todo o ambiente (Airflow, Postgres) é gerenciado via Docker Compose, facilitando o deploy e a configuração. Visualização: Criação de Dashboards no Power BI consumindo as tabelas finais modeladas no dbt. 🚀 Principais diferenciais técnicos: Orquestração: Uso de DAGs no Airflow para gerenciar dependências. Modelagem SQL: Transformações e criação de tabelas fato/dimensão via dbt. Infraestrutura como Código: Configuração de ambiente com Docker. 🔗 Confira o código completo no GitHub
-</p>
+    <p>🛒 Visão Geral Este projeto cria um fluxo de dados completo usando o dataset público da Olist. O objetivo é construir um pipeline que busca dados brutos, organiza tudo usando o Airflow e Postgres, tranasforma as informações com o dbt e exibe os resultados finais em dashboards no Power BI.
+🏗️ Arquitetura do Projeto *O diagrama acima detalha a orquestração com Airflow e as camadas de transformação com o dbt.
+...</p>
   </div>
   <footer class="entry-footer"><span title='2026-04-19 00:00:00 +0000 UTC'>April 19, 2026</span></footer>
-  <a class="entry-link" aria-label="post link to Olist Data Engineering Project" href="http://localhost:1313/projetos/data-engineering-olist/"></a>
+  <a class="entry-link" aria-label="post link to Olist Data Engineering Project" href="http://localhost:1313/projects/data-engineering-olist/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -117,7 +121,7 @@ Extração e Carga (EL): O Apache Airflow orquestra a captura dos arquivos CSV e
 </p>
   </div>
   <footer class="entry-footer"><span title='2026-02-11 00:00:00 +0000 UTC'>February 11, 2026</span></footer>
-  <a class="entry-link" aria-label="post link to Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)" href="http://localhost:1313/certificacoes/dp-600/"></a>
+  <a class="entry-link" aria-label="post link to Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)" href="http://localhost:1313/certifications/dp-600/"></a>
 </article>
     </main>
     

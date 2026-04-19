@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/projetos/data-engineering-olist/</loc>
+    <loc>http://localhost:1313/projects/data-engineering-olist/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projetos/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/airflow/</loc>
@@ -38,7 +38,7 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/certificacoes/</loc>
+    <loc>http://localhost:1313/certifications/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/analytics-engineer/</loc>
@@ -50,7 +50,7 @@
     <loc>http://localhost:1313/tags/microsoft/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/certificacoes/dp-600/</loc>
+    <loc>http://localhost:1313/certifications/dp-600/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/business-intelligence/</loc>
@@ -59,7 +59,7 @@
     <loc>http://localhost:1313/tags/dax/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/certificacoes/pl-300/</loc>
+    <loc>http://localhost:1313/certifications/pl-300/</loc>
     <lastmod>2026-01-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/azure/</loc>
@@ -68,7 +68,7 @@
     <loc>http://localhost:1313/tags/cloud-computing/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/certificacoes/az-900/</loc>
+    <loc>http://localhost:1313/certifications/az-900/</loc>
     <lastmod>2025-02-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>

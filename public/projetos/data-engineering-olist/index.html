@@ -93,7 +93,7 @@
 </div>
   </header> 
 <figure class="entry-cover">
-        <img loading="eager" src="https://img.shields.io/badge/Stack-Airflow%20%7c%20dbt%20%7c%20Docker-blue?style=for-the-badge" alt="Data Engineering Stack">
+        <img loading="eager" src="https://img.shields.io/badge/Stack-Python%20%7c%20Airflow%20%7c%20dbt%20%7c%20Docker-blue?style=for-the-badge" alt="Data Engineering Stack">
         
 </figure><details class="toc" >
     <summary accesskey="c" title="(Alt + C)">
@@ -106,16 +106,19 @@
             <li>
                 <a href="#-arquitetura-do-projeto" aria-label="🏗️ Arquitetura do Projeto">🏗️ Arquitetura do Projeto</a></li>
             <li>
-                <a href="#-principais-diferenciais-t%c3%a9cnicos" aria-label="🚀 Principais diferenciais técnicos:">🚀 Principais diferenciais técnicos:</a>
+                <a href="#-principais-diferenciais-t%c3%a9cnicos" aria-label="🚀 Principais diferenciais técnicos:">🚀 Principais diferenciais técnicos:</a></li>
+            <li>
+                <a href="#-dashboard-interativo" aria-label="📊 Dashboard Interativo">📊 Dashboard Interativo</a>
             </li>
         </ul>
     </div>
 </details>
 
   <div class="post-content md-content"><h3 id="-visão-geral">🛒 Visão Geral<a hidden class="anchor" aria-hidden="true" href="#-visão-geral">#</a></h3>
-<p>Este projeto implementa um pipeline de dados ponta a ponta utilizando o dataset público da <strong>Olist</strong>. O objetivo é simular um ambiente real de engenharia de dados, transformando dados brutos em insights estratégicos.</p>
+<p>Este projeto cria um fluxo de dados completo usando o dataset público da <em>Olist</em>. O objetivo é construir um pipeline que busca dados brutos, organiza tudo usando o Airflow e Postgres, tranasforma as informações com o dbt e exibe os resultados finais em dashboards no Power BI.</p>
 <h3 id="-arquitetura-do-projeto">🏗️ Arquitetura do Projeto<a hidden class="anchor" aria-hidden="true" href="#-arquitetura-do-projeto">#</a></h3>
-<p>A solução foi desenhada para ser escalável e reprodutível, utilizando as seguintes etapas:</p>
+<p><img alt="Fluxo de Dados Olist" loading="lazy" src="/images/arquitetura-olist.png">
+*O diagrama acima detalha a orquestração com Airflow e as camadas de transformação com o dbt.</p>
 <ol>
 <li><strong>Extração e Carga (EL):</strong> O <strong>Apache Airflow</strong> orquestra a captura dos arquivos CSV e realiza a ingestão no banco de dados <strong>PostgreSQL</strong>.</li>
 <li><strong>Transformação (T):</strong> Utilização do <strong>dbt</strong> para criar camadas de dados (staging e marts).</li>
@@ -128,6 +131,15 @@
 <li><strong>Modelagem SQL:</strong> Transformações e criação de tabelas fato/dimensão via dbt.</li>
 <li><strong>Infraestrutura como Código:</strong> Configuração de ambiente com Docker.</li>
 </ul>
+<h3 id="-dashboard-interativo">📊 Dashboard Interativo<a hidden class="anchor" aria-hidden="true" href="#-dashboard-interativo">#</a></h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe 
+    title="Dashboard Olist" 
+    src="COLE_AQUI_O_SEU_LINK_DO_IFRAME" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+    allowFullScreen="true">
+  </iframe>
+</div>
 <hr>
 <p><a href="https://github.com/cristianoreiss/data-engineering-olist">🔗 Confira o código completo no GitHub</a></p>
 

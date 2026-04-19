@@ -7,38 +7,25 @@ theme = 'PaperMod'
     defaultTheme = "dark"
     [markup.goldmark.renderer]
         unsafe = true
+    
     showRecentPostsOnHomePage = true 
     pagesize = 5
-    layout = "home"
 
 [params.profileMode]
     enabled = true
     title = "Cristiano Reis"
-    subtitle = """
-Data Solutions Intern na **Radix** | Estudante de Sistemas de Informação na **UNIRIO**
-
-Focado em arquiteturas de dados modernas, transformando dados brutos em ativos estratégicos. Atualmente especializado em:
-**Microsoft Fabric • PySpark • Azure Functions • SQL Server**
-
-<div style="display: flex; justify-content: center; gap: 8px; margin-top: 15px;">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" style="border-radius: 4px !important;" />
-    <img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" style="border-radius: 4px !important;" />
-    <img src="https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white" style="border-radius: 4px !important;" />
-    <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=power-bi&logoColor=black" style="border-radius: 4px !important;" />
-</div>
-"""
+    subtitle = "Estagiário de Solução de Dados @ Radix | Estudante de Sistemas de Informação @ UNIRIO"
+    displayFullLangName = true
     imageUrl = "/images/perfil_crop.jpeg"
     imageTitle = "Cristiano Reis"
-    imageWidth = 120
-    imageHeight = 120
-
-    [[params.profileMode.buttons]]
-        name = "📂 Meus Projetos"
-        url = "projetos"
-
-    [[params.profileMode.buttons]]
-        name = "🏆 Certificações"
-        url = "certificacoes"
+    imageWidth = 160
+    imageHeight = 160
+    buttons = [
+        { name = "Projetos", url = "/projects"},
+        { name = "Certificações", url = "/certifications"},
+        { name = "Sobre", url = "/about" },
+        { name = "Currículo", url = "/pdf/Cristiano-Reis-Curriculo.pdf"}
+    ]
 
 [[params.socialIcons]]
     name = "linkedin"
@@ -53,13 +40,19 @@ Focado em arquiteturas de dados modernas, transformando dados brutos em ativos e
     url = "mailto:cristianoreis0515@gmail.com"
 
 [[menu.main]]
-    identifier = "projetos"
+    identifier = "projects"
     name = "Projetos"
-    url = "/projetos"
+    url = "/projects"
     weight = 10
 
 [[menu.main]]
-    identifier = "certificacoes"
+    identifier = "certifications"
     name = "Certificações"
-    url = "/certificacoes"
+    url = "/certifications"
     weight = 20
+
+[[menu.main]]
+    identifier = "about"
+    name = "Sobre"
+    url = "/about"
+    weight = 30

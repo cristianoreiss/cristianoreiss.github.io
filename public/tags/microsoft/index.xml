@@ -10,23 +10,23 @@
     <atom:link href="http://localhost:1313/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Microsoft Certified: Fabric Analytics Engineer Associate (DP-600)</title>
-      <link>http://localhost:1313/certificacoes/dp-600/</link>
+      <link>http://localhost:1313/certifications/dp-600/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/certificacoes/dp-600/</guid>
+      <guid>http://localhost:1313/certifications/dp-600/</guid>
       <description>Implementação e gerenciamento de soluções de análise de dados em larga escala utilizando o Microsoft Fabric.</description>
     </item>
     <item>
       <title>Microsoft Certified: Power BI Data Analyst Associate (PL-300)</title>
-      <link>http://localhost:1313/certificacoes/pl-300/</link>
+      <link>http://localhost:1313/certifications/pl-300/</link>
       <pubDate>Fri, 09 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/certificacoes/pl-300/</guid>
+      <guid>http://localhost:1313/certifications/pl-300/</guid>
       <description>Modelagem, visualização e análise de dados para transformar dados brutos em insights significativos com Power BI.</description>
     </item>
     <item>
       <title>Microsoft Certified: Azure Fundamentals (AZ-900)</title>
-      <link>http://localhost:1313/certificacoes/az-900/</link>
+      <link>http://localhost:1313/certifications/az-900/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/certificacoes/az-900/</guid>
+      <guid>http://localhost:1313/certifications/az-900/</guid>
       <description>Conceitos fundamentais de computação em nuvem e os serviços principais do Microsoft Azure.</description>
     </item>
   </channel>
