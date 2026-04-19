@@ -1,0 +1,65 @@
+baseURL = 'https://cristianoreis.github.io/'
+languageCode = 'pt-br'
+title = 'Cristiano Reis'
+theme = 'PaperMod'
+
+[params]
+    defaultTheme = "dark"
+    [markup.goldmark.renderer]
+        unsafe = true
+    showRecentPostsOnHomePage = true 
+    pagesize = 5
+    layout = "home"
+
+[params.profileMode]
+    enabled = true
+    title = "Cristiano Reis"
+    subtitle = """
+Data Solutions Intern na **Radix** | Estudante de Sistemas de Informação na **UNIRIO**
+
+Focado em arquiteturas de dados modernas, transformando dados brutos em ativos estratégicos. Atualmente especializado em:
+**Microsoft Fabric • PySpark • Azure Functions • SQL Server**
+
+<div style="display: flex; justify-content: center; gap: 8px; margin-top: 15px;">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" style="border-radius: 4px !important;" />
+    <img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white" style="border-radius: 4px !important;" />
+    <img src="https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoft-azure&logoColor=white" style="border-radius: 4px !important;" />
+    <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=power-bi&logoColor=black" style="border-radius: 4px !important;" />
+</div>
+"""
+    imageUrl = "/images/perfil_crop.jpeg"
+    imageTitle = "Cristiano Reis"
+    imageWidth = 120
+    imageHeight = 120
+
+    [[params.profileMode.buttons]]
+        name = "📂 Meus Projetos"
+        url = "projetos"
+
+    [[params.profileMode.buttons]]
+        name = "🏆 Certificações"
+        url = "certificacoes"
+
+[[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/cristianorreis/"
+
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/cristianoreiss"
+
+[[params.socialIcons]]
+    name = "email"
+    url = "mailto:cristianoreis0515@gmail.com"
+
+[[menu.main]]
+    identifier = "projetos"
+    name = "Projetos"
+    url = "/projetos"
+    weight = 10
+
+[[menu.main]]
+    identifier = "certificacoes"
+    name = "Certificações"
+    url = "/certificacoes"
+    weight = 20
