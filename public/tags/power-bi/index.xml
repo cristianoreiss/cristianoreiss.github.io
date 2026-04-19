@@ -6,8 +6,15 @@
     <description>Recent content in Power BI on Cristiano Reis</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
-    <lastBuildDate>Fri, 09 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/power-bi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Olist Data Engineering Project</title>
+      <link>http://localhost:1313/projetos/data-engineering-olist/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projetos/data-engineering-olist/</guid>
+      <description>Pipeline de dados completo: Ingestão com Airflow, modelagem com dbt em Postgres e Dashboards no Power BI.</description>
+    </item>
     <item>
       <title>Microsoft Certified: Power BI Data Analyst Associate (PL-300)</title>
       <link>http://localhost:1313/certificacoes/pl-300/</link>
