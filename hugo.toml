@@ -23,8 +23,7 @@ theme = 'PaperMod'
     buttons = [
         { name = "Projetos", url = "/projects"},
         { name = "Certificações", url = "/certifications"},
-        { name = "Sobre", url = "/about" },
-        { name = "Currículo", url = "/pdf/Cristiano-Reis-Curriculo.pdf"}
+        { name = "Currículo", url = "/pdf/cristiano-reis-curriculo.pdf"}
     ]
 
 [[params.socialIcons]]
@@ -40,19 +39,25 @@ theme = 'PaperMod'
     url = "mailto:cristianoreis0515@gmail.com"
 
 [[menu.main]]
+    identifier = "about"
+    name = "Sobre"
+    url = "/about"
+    weight = 10
+
+[[menu.main]]
     identifier = "projects"
     name = "Projetos"
     url = "/projects"
-    weight = 10
+    weight = 20
 
 [[menu.main]]
     identifier = "certifications"
     name = "Certificações"
     url = "/certifications"
-    weight = 20
+    weight = 30
 
 [[menu.main]]
-    identifier = "about"
-    name = "Sobre"
-    url = "/about"
-    weight = 30
+    identifier = "resume"
+    name = "Currículo"
+    url = "/pdf/Cristiano-Reis-Curriculo.pdf"
+    weight = 40

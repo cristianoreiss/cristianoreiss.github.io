@@ -1,0 +1,33 @@
+/* 1. GRADE E FUNDO (SÓ ATIVA NO MODO ESCURO) */
+body.dark {
+    background-color: #000000 !important;
+    background-image: radial-gradient(#262626 1px, transparent 1px) !important;
+    background-size: 26px 26px !important;
+    background-attachment: fixed !important;
+}
+
+.dark .profile_inner .buttons .button {
+    background: #111111 !important;
+    border: 1px solid #222 !important;
+    border-radius: 6px !important;
+    color: #ffffff !important;
+}
+
+.dark .profile_inner .buttons .button:hover {
+    background: #1a1a1a !important;
+    border-color: #444 !important;
+}
+
+/* 3. NOME E ÍCONES (SÓ NO MODO ESCURO) */
+.dark .profile_inner h1 {
+    font-weight: 900 !important;
+    letter-spacing: -2px !important;
+}
+
+.dark .social-icons a svg {
+    filter: brightness(2) !important;
+}
+
+/* 4. MODO CLARO (RESTAURA O PADRÃO) */
+/* Quando a classe .dark sumir, o PaperMod assume as cores originais automaticamente. 
+   Aqui você pode adicionar ajustes se quiser que o modo claro também tenha algo especial. */
